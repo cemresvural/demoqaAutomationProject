@@ -1,14 +1,18 @@
 import org.junit.jupiter.api.Test;
 
-public class PersonalInformationTest {
+public class PersonalInformationTest extends  BaseTest{
 
     @Test
     public void testSetName(){
-        System.out.println("Test method 1");
+
 
     }
     @Test
     public void testSetLastName(){
-        System.out.println("Test method 2");
+
+    }
+    @Test
+    public void testSetEmail(){
+
     }
 }
