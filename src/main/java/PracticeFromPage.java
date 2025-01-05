@@ -1,2 +1,12 @@
-package PACKAGE_NAME;public class PracticeFromPage {
+public class PracticeFromPage {
+
+    public void setName(){
+
+    }
+    public void setLastName(){
+
+    }
+    public void email(){
+
+    }
 }
