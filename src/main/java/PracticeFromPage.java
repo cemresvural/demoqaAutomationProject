@@ -32,4 +32,18 @@ public class PracticeFromPage {
         nameSpace.sendKeys(emailAsString);
 
     }
+    public String getName(){
+        //inspect elementi incelediğimde text yok bu yüzden get text methodu ile alamıyorum
+        WebElement nameSpace= driver.findElement(name);
+        return nameSpace.getAttribute("value");
+        //burada kullanacağımız attribute parametre olarak value olacak çünkü text vesaire yok, olmadığında bu şekilde alabiliyorum.
+    }
+    public String getLastname(){
+        WebElement lastnameSpace=driver.findElement(lastName);
+        return lastnameSpace.getAttribute("value");
+    }
+    public String getEmail(){
+        WebElement emailSpace=driver.findElement(email);
+        return emailSpace.getAttribute("value");
+    }
 }

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a273cea3-9d6c-4e81-94a7-86db00f267b9" name="Changes" comment="create base test and add driver setup">
+    <list default="true" id="a273cea3-9d6c-4e81-94a7-86db00f267b9" name="Changes" comment="06.01.2025,16:58">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PracticeFromPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PracticeFromPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PersonalInformationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonalInformationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.PersonalInformationTest.executor": "Run",
+    "JUnit.PersonalInformationTest.testSetName.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -45,7 +45,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PersonalInformationTest.testSetName">
     <configuration name="PersonalInformationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoqa-automation-project" />
       <option name="PACKAGE_NAME" value="" />
@@ -55,8 +55,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonalInformationTest.testSetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoqa-automation-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonalInformationTest" />
+      <option name="METHOD_NAME" value="testSetName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonalInformationTest.testSetName" />
         <item itemvalue="JUnit.PersonalInformationTest" />
       </list>
     </recent_temporary>
@@ -86,12 +97,22 @@
       <option name="project" value="LOCAL" />
       <updated>1736100042957</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="06.01.2025,16:58">
+      <option name="closed" value="true" />
+      <created>1736171894192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736171894192</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="05.01.2025,18:07" />
     <MESSAGE value="create base test and add driver setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="create base test and add driver setup" />
+    <MESSAGE value="06.01.2025,16:57" />
+    <MESSAGE value="06.01.2025,16:58" />
+    <option name="LAST_COMMIT_MESSAGE" value="06.01.2025,16:58" />
   </component>
 </project>
