@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BaseTest {
 
     protected WebDriver driver;
+    PracticeFromPage practiceFromPage;
 
 
     @BeforeAll
@@ -16,6 +17,7 @@ public class BaseTest {
         driver = new ChromeDriver();
         driver.get("https://demoqa.com/automation-practice-form");
         System.out.println("Test initiated.");
+        practiceFromPage= new PracticeFromPage(driver);
     }
 
     @AfterAll

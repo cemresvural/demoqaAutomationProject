@@ -26,7 +26,7 @@ public class PracticeFromPage {
         nameSpace.sendKeys(setLastNameAsString);
 
     }
-    public void email(String emailAsString){
+    public void setEmail(String emailAsString){
         WebElement nameSpace=driver.findElement(email);
         nameSpace.click();
         nameSpace.sendKeys(emailAsString);

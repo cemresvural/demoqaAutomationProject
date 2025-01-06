@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a273cea3-9d6c-4e81-94a7-86db00f267b9" name="Changes" comment="05.01.2025,18:07">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+    <list default="true" id="a273cea3-9d6c-4e81-94a7-86db00f267b9" name="Changes" comment="create base test and add driver setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PracticeFromPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PracticeFromPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PersonalInformationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonalInformationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,11 +78,20 @@
       <option name="project" value="LOCAL" />
       <updated>1736089646575</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create base test and add driver setup">
+      <option name="closed" value="true" />
+      <created>1736100042957</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736100042957</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="05.01.2025,18:07" />
-    <option name="LAST_COMMIT_MESSAGE" value="05.01.2025,18:07" />
+    <MESSAGE value="create base test and add driver setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="create base test and add driver setup" />
   </component>
 </project>
