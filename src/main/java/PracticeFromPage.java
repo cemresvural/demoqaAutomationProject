@@ -8,11 +8,15 @@ public class PracticeFromPage {
     private final By lastName=By.id("lastName");
     private final By email=By.id("userEmail");
 
+    private GenderSection genderSection;
 
     public PracticeFromPage(WebDriver driver){
         this.driver=driver;
+        genderSection=new GenderSection(driver);
     }
-
+    public GenderSection genderSection(){
+        return this.genderSection;
+    }
 
     public void setName(String nameAsString){
         WebElement nameSpace=driver.findElement(name);
