@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a273cea3-9d6c-4e81-94a7-86db00f267b9" name="Changes" comment="add gender selection">
+    <list default="true" id="a273cea3-9d6c-4e81-94a7-86db00f267b9" name="Changes" comment="radio button is checked for genders">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GenderSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenderSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGenderSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGenderSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PracticeFromPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PracticeFromPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestGenderSelection">
+  <component name="RunManager" selected="JUnit.PersonalInformationTest">
     <configuration name="PersonalInformationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoqa-automation-project" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,9 +77,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonalInformationTest" />
         <item itemvalue="JUnit.TestGenderSelection" />
         <item itemvalue="JUnit.PersonalInformationTest.testSetName" />
-        <item itemvalue="JUnit.PersonalInformationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736282518061</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="radio button is checked for genders">
+      <option name="closed" value="true" />
+      <created>1736367766892</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736367766892</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,6 +150,7 @@
     <MESSAGE value="06.01.2025,16:58" />
     <MESSAGE value="assertions" />
     <MESSAGE value="add gender selection" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gender selection" />
+    <MESSAGE value="radio button is checked for genders" />
+    <option name="LAST_COMMIT_MESSAGE" value="radio button is checked for genders" />
   </component>
 </project>
