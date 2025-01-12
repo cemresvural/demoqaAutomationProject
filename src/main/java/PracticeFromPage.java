@@ -1,17 +1,18 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+
 
 public class PracticeFromPage extends BasePage{
 
-    private final By nameLocater =By.id("firstName");
-    private final By lastNameLocater =By.id("lastName");
-    private final By emailLocater =By.id("userEmail");
+    private final By nameLocator =By.id("firstName");
+    private final By lastNameLocator =By.id("lastName");
+    private final By emailLocator =By.id("userEmail");
 
     private GenderSection genderSection;
 
     public PracticeFromPage(WebDriver driver){
         super(driver);
+        driver.get(baseUrl.concat("automation-practice-form"));
         genderSection=new GenderSection(driver);
     }
     public GenderSection genderSection(){
@@ -19,23 +20,23 @@ public class PracticeFromPage extends BasePage{
     }
 
     public void setName(String name){
-      type(nameLocater,name);
+      type(nameLocator,name);
 
     }
     public void setLastName(String lastName){
-        type(lastNameLocater,lastName);
+        type(lastNameLocator,lastName);
 
     }
     public void setEmail(String email){
-      type(emailLocater,email);
+      type(emailLocator,email);
     }
     public String getName(){
-        return find(nameLocater).getAttribute("value");
+        return find(nameLocator).getAttribute("value");
     }
     public String getLastname(){
-        return find(lastNameLocater).getAttribute("value");
+        return find(lastNameLocator).getAttribute("value");
     }
     public String getEmail(){
-        return find(emailLocater).getAttribute("value");
+        return find(emailLocator).getAttribute("value");
     }
 }

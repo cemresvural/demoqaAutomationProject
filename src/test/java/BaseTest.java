@@ -15,9 +15,7 @@ public class BaseTest {
     public void setUp(){
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("https://demoqa.com/automation-practice-form");
         System.out.println("Test initiated.");
-        practiceFromPage= new PracticeFromPage(driver);
     }
 
     @AfterAll
